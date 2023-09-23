@@ -2,7 +2,15 @@
 module.exports = {
   content: ["public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#4E4E4E",
+      },
+      fontFamily: {
+        optima: ["Optima"],
+        branch: ["Branch"],
+      },
+    },
   },
   plugins: [],
 };

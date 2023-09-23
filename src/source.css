@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Optima"), url("fonts/OPTIMA.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Branch";
+  src: url("fonts/Branch.otf") format("otf");
+}
