@@ -13,3 +13,15 @@
   font-family: "Branch";
   src: url("fonts/Branch.otf") format("otf");
 }
+
+.img-caption {
+  @apply font-optima text-xl text-primary leading-8;
+}
+
+.img-caption-list {
+  @apply text-xl leading-8 font-optima font-bold uppercase;
+}
+
+.img-title {
+  @apply font-branch text-[64px] leading-[92.8px];
+}
