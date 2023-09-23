@@ -25,3 +25,7 @@
 .img-title {
   @apply font-branch text-[64px] leading-[92.8px];
 }
+
+.slogan {
+  @apply text-[32px] leading-[46.4px] uppercase font-branch;
+}
