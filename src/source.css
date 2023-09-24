@@ -29,3 +29,19 @@
 .slogan {
   @apply text-[32px] leading-[46.4px] uppercase font-branch;
 }
+
+.most-viewed-title {
+  @apply font-branch text-xl leading-[29px];
+}
+
+.most-viewed-date {
+  @apply font-optima text-sm leading-4 text-light-gray;
+}
+
+.most-viewed-body {
+  @apply font-optima text-sm leading-5;
+}
+
+.read-more {
+  @apply font-branch text-sm leading-5 uppercase text-dark-gray w-[180px] border-b-black border-b pb-2 pt-10;
+}
