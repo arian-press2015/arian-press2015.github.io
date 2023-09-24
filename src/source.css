@@ -56,7 +56,7 @@
 }
 
 .page-header {
-  @apply font-branch text-9xl leading-[185px] text-white absolute bottom-[16vw] opacity-80;
+  @apply font-branch text-9xl leading-[185px] text-white absolute opacity-80;
 }
 
 .page-sub-header {
