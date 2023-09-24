@@ -45,3 +45,15 @@
 .read-more {
   @apply font-branch text-sm leading-5 uppercase text-dark-gray w-[180px] border-b-black border-b pb-2 pt-10;
 }
+
+.form-input {
+  @apply border border-gray-300 placeholder-black w-full px-5 py-5 font-optima text-[16px] leading-[18px];
+}
+
+.page-header {
+  @apply font-branch text-9xl leading-[185px] text-white absolute bottom-[16vw] opacity-80;
+}
+
+li {
+  display: inline;
+}
