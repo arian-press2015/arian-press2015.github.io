@@ -54,6 +54,10 @@
   @apply font-branch text-9xl leading-[185px] text-white absolute bottom-[16vw] opacity-80;
 }
 
+.page-sub-header {
+  @apply font-branch text-[64px] leading-[93px] text-white absolute bottom-[10vw] opacity-80;
+}
+
 li {
   display: inline;
 }
