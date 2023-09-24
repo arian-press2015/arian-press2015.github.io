@@ -70,7 +70,3 @@
 .li-sq-separator {
   @apply before:content-['⬝'] before:px-5;
 }
-
-li {
-  display: inline;
-}
