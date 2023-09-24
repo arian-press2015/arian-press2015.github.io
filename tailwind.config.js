@@ -13,6 +13,9 @@ module.exports = {
         branch: ["Branch"],
         janetanice: ["Janetanice"],
       },
+      listStyleType: {
+        square: "square",
+      },
     },
   },
   plugins: [],
