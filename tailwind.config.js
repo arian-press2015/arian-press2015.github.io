@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         optima: ["Optima"],
         branch: ["Branch"],
+        janetanice: ["Janetanice"],
       },
     },
   },

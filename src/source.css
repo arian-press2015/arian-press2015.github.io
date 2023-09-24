@@ -14,8 +14,13 @@
   src: url("fonts/Branch.otf") format("otf");
 }
 
+@font-face {
+  font-family: "Janetanice";
+  src: url("fonts/Janetanice.otf") format("otf");
+}
+
 .img-caption {
-  @apply font-optima text-xl text-primary leading-8;
+  @apply font-optima text-xl text-primary leading-8 text-center;
 }
 
 .img-caption-list {
