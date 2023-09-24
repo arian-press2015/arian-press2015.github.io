@@ -58,6 +58,14 @@
   @apply font-branch text-[64px] leading-[93px] text-white absolute bottom-[10vw] opacity-80;
 }
 
+.li-separator {
+  @apply before:content-['|'] before:px-5;
+}
+
+.li-sq-separator {
+  @apply before:content-['⬝'] before:px-5;
+}
+
 li {
   display: inline;
 }
