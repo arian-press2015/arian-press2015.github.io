@@ -20,15 +20,15 @@
 }
 
 .img-caption {
-  @apply font-optima text-xl text-primary leading-8 text-center;
+  @apply font-optima text-[16px] lg:text-xl text-primary leading-6 lg:leading-8 text-center;
 }
 
 .img-caption-list {
-  @apply text-xl leading-8 font-optima font-bold uppercase;
+  @apply flex flex-col items-center lg:block text-[14px] lg:text-xl leading-8 font-optima font-bold uppercase;
 }
 
 .img-title {
-  @apply font-branch text-[64px] leading-[92.8px];
+  @apply font-branch text-[32px] lg:text-[64px] leading-[46px] lg:leading-[92.8px];
 }
 
 .slogan {
@@ -64,9 +64,9 @@
 }
 
 .li-separator {
-  @apply before:content-['|'] before:px-5;
+  @apply lg:before:content-['|'] lg:before:px-5;
 }
 
 .li-sq-separator {
-  @apply before:content-['⬝'] before:px-5;
+  @apply lg:before:content-['⬝'] lg:before:px-5;
 }
