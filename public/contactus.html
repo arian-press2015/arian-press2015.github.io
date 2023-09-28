@@ -18,7 +18,9 @@
         <h1 class="page-header bottom-[16vw]">Contact Us</h1>
       </div>
       <div class="flex flex-col items-center">
-        <p class="font-optima text-2xl leading-9 text-center w-3/5 py-20">
+        <p
+          class="font-optima text-sm lg:text-2xl leading-6 lg:leading-9 text-center w-[80%] lg:w-3/5 py-20"
+        >
           We're not your average web developers; we're your digital architects
           for real estate success. At The Actualized, we craft pixel-perfect
           online experiences that turn browsers into buyers. <br />
@@ -35,19 +37,39 @@
           imagination, and your success is our masterpiece. Let's make your real
           estate dreams come true, one click at a time.
         </p>
-        <ul class="font-optima text-4xl leading-10 pb-20">
+        <ul
+          class="font-optima text-2xl lg:text-4xl leading-7 lg:leading-10 pb-20 text-center"
+        >
           <li class="inline">1-888-316-8678</li>
           <li class="inline">Contact@TheActualized.com</li>
         </ul>
-        <form class="w-1/2 flex flex-col items-center" action="/contact-us">
-          <div class="grid grid-cols-2 gap-8 w-full">
-            <input class="form-input" type="text" placeholder="Full Name" />
-            <input class="form-input" type="text" placeholder="Email" />
+        <form
+          class="w-[90%] lg:w-1/2 flex flex-col items-center"
+          action="/contact-us"
+        >
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
             <input
-              class="form-input col-span-2"
+              name="name"
+              id="name"
+              class="form-input"
               type="text"
-              placeholder="Message..."
+              placeholder="Full Name"
             />
+            <input
+              name="email"
+              id="email"
+              class="form-input"
+              type="text"
+              placeholder="Email"
+            />
+            <textarea
+              class="form-input lg:col-span-2"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message..."
+            ></textarea>
           </div>
           <input
             class="bg-black py-2 px-12 text-white font-branch text-[16px] leading-6 mt-10 mb-24"
