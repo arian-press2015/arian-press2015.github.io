@@ -67,6 +67,10 @@
   @apply lg:before:content-['|'] lg:before:px-5;
 }
 
+.li-separator-mobile {
+  @apply before:content-['|'] before:px-5;
+}
+
 .li-sq-separator {
   @apply lg:before:content-['⬝'] lg:before:px-5;
 }
