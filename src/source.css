@@ -56,11 +56,11 @@
 }
 
 .page-header {
-  @apply font-branch text-9xl leading-[185px] text-white absolute opacity-80;
+  @apply font-branch text-[32px] lg:text-9xl leading-[46px] lg:leading-[185px] text-white absolute opacity-80;
 }
 
 .page-sub-header {
-  @apply font-branch text-[64px] leading-[93px] text-white absolute bottom-[10vw] opacity-80;
+  @apply font-branch text-xl lg:text-[64px] leading-7 lg:leading-[93px] text-white absolute bottom-2 lg:bottom-[10vw] opacity-80 text-center lg:text-left;
 }
 
 .li-separator {
