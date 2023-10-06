@@ -668,6 +668,10 @@ video {
   bottom: 15;
 }
 
+.bottom-\[5\%\] {
+  bottom: 5%;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -1408,7 +1412,15 @@ video {
     --tw-content: '⬝';
     content: var(--tw-content);
   }
+}
 
+@media (min-width: 768px) {
+  .md\:bottom-\[25\%\] {
+    bottom: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
   .lg\:bottom-28 {
     bottom: 7rem;
   }
