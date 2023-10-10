@@ -652,6 +652,10 @@ video {
   bottom: 10%;
 }
 
+.bottom-\[25vw\] {
+  bottom: 25vw;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -975,6 +979,10 @@ video {
 
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
