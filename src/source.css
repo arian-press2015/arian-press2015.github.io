@@ -4,19 +4,17 @@
 
 @font-face {
   font-family: "Optima";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Optima"), url("fonts/OPTIMA.woff") format("woff");
+  src: url("fonts/optima.ttf");
 }
 
 @font-face {
   font-family: "Branch";
-  src: url("fonts/Branch.otf") format("otf");
+  src: url("fonts/branch.ttf");
 }
 
 @font-face {
   font-family: "Janetanice";
-  src: url("fonts/Janetanice.otf") format("otf");
+  src: url("fonts/janetanice.ttf");
 }
 
 .img-caption {
