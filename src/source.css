@@ -66,5 +66,5 @@
 }
 
 .list-items {
-  @apply font-optima font-bold text-xl leading-8 uppercase;
+  @apply font-optima font-bold text-sm lg:text-xl leading-8 uppercase;
 }
