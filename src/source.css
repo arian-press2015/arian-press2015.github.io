@@ -34,11 +34,11 @@
 }
 
 .most-viewed-title {
-  @apply font-branch text-xl leading-[29px];
+  @apply font-branch text-xl leading-[29px] pt-10;
 }
 
 .most-viewed-date {
-  @apply font-optima text-sm leading-4 text-light-gray;
+  @apply font-optima text-sm leading-4 text-light-gray pb-5;
 }
 
 .most-viewed-body {
@@ -46,7 +46,7 @@
 }
 
 .read-more {
-  @apply font-branch text-sm leading-5 uppercase text-dark-gray w-[180px] border-b-black border-b pb-2 pt-10;
+  @apply font-branch text-sm leading-5 uppercase tracking-[0.2em] text-dark-gray w-[180px] border-b-black border-b pb-2 pt-10;
 }
 
 .form-input {
