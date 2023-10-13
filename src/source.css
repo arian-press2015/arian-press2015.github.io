@@ -61,14 +61,10 @@
   @apply font-branch text-xl lg:text-[64px] leading-7 lg:leading-[93px] text-white absolute bottom-2 lg:bottom-[10vw] opacity-80 text-center lg:text-left;
 }
 
-.li-separator {
-  @apply lg:before:content-['|'] lg:before:px-5;
+.lists {
+  @apply flex flex-col lg:flex-row justify-center items-center pb-20;
 }
 
-.li-separator-mobile {
-  @apply before:content-['|'] before:px-5;
-}
-
-.li-sq-separator {
-  @apply lg:before:content-['⬝'] lg:before:px-5;
+.list-items {
+  @apply font-optima font-bold text-xl leading-8 uppercase;
 }
