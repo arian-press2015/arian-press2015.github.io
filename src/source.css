@@ -34,7 +34,7 @@
 }
 
 .most-viewed-title {
-  @apply font-branch text-xl leading-[29px] pt-10;
+  @apply font-branch text-xl leading-[29px] pt-1 md:pt-10;
 }
 
 .most-viewed-date {

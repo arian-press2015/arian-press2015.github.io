@@ -839,6 +839,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -1293,11 +1297,17 @@ video {
 }
 
 .most-viewed-title {
-  padding-top: 2.5rem;
+  padding-top: 0.25rem;
   font-family: Branch;
   font-size: 1.25rem;
   line-height: 1.75rem;
   line-height: 29px;
+}
+
+@media (min-width: 768px) {
+  .most-viewed-title {
+    padding-top: 2.5rem;
+  }
 }
 
 .most-viewed-date {
@@ -1435,6 +1445,31 @@ video {
   .md\:bottom-\[30\%\] {
     bottom: 30%;
   }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1560,12 +1595,12 @@ video {
     padding-bottom: 5rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
-  }
-
   .lg\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-center {
