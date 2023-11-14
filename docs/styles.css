@@ -1067,6 +1067,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-branch {
   font-family: Branch;
 }
