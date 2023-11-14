@@ -1317,7 +1317,7 @@ video {
 }
 
 .img-caption {
-  text-align: center;
+  text-align: justify;
   font-family: Optima;
   font-size: 16px;
   line-height: 1.5rem;
@@ -1402,6 +1402,7 @@ video {
 }
 
 .most-viewed-body {
+  text-align: justify;
   font-family: Optima;
   font-size: 0.875rem;
   line-height: 1.25rem;

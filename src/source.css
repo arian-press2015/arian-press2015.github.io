@@ -18,7 +18,7 @@
 }
 
 .img-caption {
-  @apply font-optima text-[16px] lg:text-xl text-primary leading-6 lg:leading-8 text-center;
+  @apply font-optima text-[16px] lg:text-xl text-primary leading-6 lg:leading-8 text-justify;
 }
 
 .img-caption-list {
@@ -42,7 +42,7 @@
 }
 
 .most-viewed-body {
-  @apply font-optima text-sm leading-5;
+  @apply font-optima text-sm leading-5 text-justify;
 }
 
 .read-more {
