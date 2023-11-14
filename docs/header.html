@@ -18,25 +18,32 @@
           function toggleMenu() {
             const close = document.getElementById("close-menu");
             const menu = document.getElementById("open-menu");
-            const links = document.getElementById("links");
+            const link = document.getElementById("links");
+            const linksm = document.getElementById("links-sm");
 
             if (close.classList.contains("hidden")) {
               close.classList.remove("hidden");
               menu.classList.add("hidden");
-              links.classList.remove("hidden");
+              link.classList.remove("hidden");
+              linksm.classList.remove("hidden");
             } else {
               close.classList.add("hidden");
               menu.classList.remove("hidden");
-              links.classList.add("hidden");
+              link.classList.add("hidden");
+              linksm.classList.add("hidden");
             }
           }
         </script>
-        <div id="links" class="hidden">
-          <div class="flex flex-row gap-10">
-            <a class="font-optima text-xl" href="/index.html">Home</a>
-            <a class="font-optima text-xl" href="/tech.html">Technology</a>
-            <a class="font-optima text-xl" href="/design.html">Design</a>
-            <a class="font-optima text-xl" href="/contactus.html">Contact Us</a>
+        <div class="hidden lg:block">
+          <div id="links" class="hidden">
+            <div class="flex flex-row gap-10">
+              <a class="font-optima text-xl" href="/index.html">Home</a>
+              <a class="font-optima text-xl" href="/tech.html">Technology</a>
+              <a class="font-optima text-xl" href="/design.html">Design</a>
+              <a class="font-optima text-xl" href="/contactus.html"
+                >Contact Us</a
+              >
+            </div>
           </div>
         </div>
         <button id="close-menu" onclick="toggleMenu()" class="hidden">
@@ -49,6 +56,16 @@
         <button id="open-menu" onclick="toggleMenu()">
           <img class="w-[32px] h-[32px]" src="img/menu.png" alt="menu" />
         </button>
+      </div>
+    </div>
+    <div class="lg:hidden">
+      <div id="links-sm" class="hidden">
+        <div class="flex flex-col items-center gap-5 py-2">
+          <a class="font-optima text-xl" href="/index.html">Home</a>
+          <a class="font-optima text-xl" href="/tech.html">Technology</a>
+          <a class="font-optima text-xl" href="/design.html">Design</a>
+          <a class="font-optima text-xl" href="/contactus.html">Contact Us</a>
+        </div>
       </div>
     </div>
     <div class="flex flex-col items-center bg-[#151515]">

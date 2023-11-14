@@ -568,6 +568,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -649,6 +653,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -701,12 +710,12 @@ video {
   display: none;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-40 {
+  height: 10rem;
 }
 
-.h-80 {
-  height: 20rem;
+.h-6 {
+  height: 1.5rem;
 }
 
 .h-\[14px\] {
@@ -717,6 +726,10 @@ video {
   height: 21px;
 }
 
+.h-\[32px\] {
+  height: 32px;
+}
+
 .h-\[54px\] {
   height: 54px;
 }
@@ -725,8 +738,8 @@ video {
   height: 5px;
 }
 
-.h-40 {
-  height: 10rem;
+.h-\[61px\] {
+  height: 61px;
 }
 
 .w-2\/5 {
@@ -749,6 +762,18 @@ video {
   width: 14px;
 }
 
+.w-\[198px\] {
+  width: 198px;
+}
+
+.w-\[21px\] {
+  width: 21px;
+}
+
+.w-\[32px\] {
+  width: 32px;
+}
+
 .w-\[54px\] {
   width: 54px;
 }
@@ -763,6 +788,10 @@ video {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .w-\[90\%\] {
@@ -847,12 +876,21 @@ video {
   gap: 0.75rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
 .gap-8 {
   gap: 2rem;
+}
+
+.border-y-\[1px\] {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 
 .border-b {
@@ -882,6 +920,12 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-y-\[\#525252\] {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(82 82 82 / var(--tw-border-opacity));
+  border-bottom-color: rgb(82 82 82 / var(--tw-border-opacity));
+}
+
 .border-b-black {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -890,6 +934,11 @@ video {
 .border-r-gray-300 {
   --tw-border-opacity: 1;
   border-right-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.bg-\[\#151515\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#BBBBBB\] {
@@ -912,6 +961,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -930,6 +983,11 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-8 {
@@ -1086,6 +1144,10 @@ video {
   line-height: 2.5rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -1116,6 +1178,10 @@ video {
 
 .leading-\[27px\] {
   line-height: 27px;
+}
+
+.leading-\[29px\] {
+  line-height: 29px;
 }
 
 .leading-\[34\.8px\] {
@@ -1175,6 +1241,11 @@ video {
   color: rgb(152 152 152 / var(--tw-text-opacity));
 }
 
+.text-\[\#B6B6B6\] {
+  --tw-text-opacity: 1;
+  color: rgb(182 182 182 / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1213,6 +1284,14 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 @font-face {
@@ -1456,22 +1535,6 @@ video {
     bottom: 7vw;
   }
 
-  .md\:top-\[17\%\] {
-    top: 17%;
-  }
-
-  .md\:top-\[14\%\] {
-    top: 14%;
-  }
-
-  .md\:top-\[12\%\] {
-    top: 12%;
-  }
-
-  .md\:top-\[8\%\] {
-    top: 8%;
-  }
-
   .md\:gap-0 {
     gap: 0px;
   }
@@ -1538,8 +1601,28 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:h-80 {
     height: 20rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 }
 
