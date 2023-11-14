@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-row justify-between p-10 items-center">
+      <div class="flex flex-row items-center">
+        <img src="img/header-logo.png" alt="logo" />
+        <p class="font-branch text-xl leading-[29px] pl-5">The Actualized</p>
+      </div>
+
+      <div class="flex flex-row gap-10">
+        <script>
+          function toggleMenu() {
+            const close = document.getElementById("close-menu");
+            const menu = document.getElementById("open-menu");
+            const links = document.getElementById("links");
+
+            if (close.classList.contains("hidden")) {
+              close.classList.remove("hidden");
+              menu.classList.add("hidden");
+              links.classList.remove("hidden");
+            } else {
+              close.classList.add("hidden");
+              menu.classList.remove("hidden");
+              links.classList.add("hidden");
+            }
+          }
+        </script>
+        <div id="links" class="hidden">
+          <div class="flex flex-row gap-10">
+            <a class="font-optima text-xl" href="/index.html">Home</a>
+            <a class="font-optima text-xl" href="/tech.html">Technology</a>
+            <a class="font-optima text-xl" href="/design.html">Design</a>
+            <a class="font-optima text-xl" href="/contactus.html">Contact Us</a>
+          </div>
+        </div>
+        <button id="close-menu" onclick="toggleMenu()" class="hidden">
+          <img
+            class="w-[32px] h-[32px]"
+            src="img/close-square.png"
+            alt="close"
+          />
+        </button>
+        <button id="open-menu" onclick="toggleMenu()">
+          <img class="w-[32px] h-[32px]" src="img/menu.png" alt="menu" />
+        </button>
+      </div>
+    </div>
+    <div class="flex flex-col items-center bg-[#151515]">
+      <img
+        class="w-[198px] h-[61px] my-8"
+        src="img/footer-logo.png"
+        alt="logo"
+      />
+      <div
+        class="flex flex-col lg:flex-row justify-between items-center w-[85%] border-y-[1px] border-y-[#525252] py-3"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row gap-3 lg:gap-20 mb-10 lg:mb-0"
+        >
+          <a
+            class="uppercase font-optima text-[16px] leading-4 text-white"
+            href="/"
+            >about</a
+          >
+          <a
+            class="uppercase font-optima text-[16px] leading-4 text-white"
+            href="/price-plans.html"
+            >plans</a
+          >
+          <a
+            class="uppercase font-optima text-[16px] leading-4 text-white"
+            href="/"
+            >why us?</a
+          >
+          <a
+            class="uppercase font-optima text-[16px] leading-4 text-white"
+            href="/technology.html"
+            >technology</a
+          >
+        </div>
+        <div class="flex flex-row gap-5">
+          <img class="w-[21px] h-[21px]" src="img/youtube.png" alt="youtube" />
+          <img
+            class="w-[21px] h-[21px]"
+            src="img/facebook.png"
+            alt="facebook"
+          />
+          <img class="w-[21px] h-[21px]" src="img/insta.png" alt="instagram" />
+          <img class="w-[21px] h-[21px]" src="img/tiktok.png" alt="tiktok" />
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row lists gap-6 pt-5">
+        <p class="font-optima text-[#B6B6B6] text-[16px] leading-4">
+          +1 604 555 5555
+        </p>
+        <img
+          class="w-[5px] h-[5px]"
+          src="img/li-sq-grey.png"
+          alt="list-separator"
+        />
+        <p class="font-optima text-[#B6B6B6] text-[16px] leading-4">
+          Sales@TheActualized.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
