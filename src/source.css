@@ -68,3 +68,31 @@
 .list-items {
   @apply font-optima font-bold text-sm lg:text-xl leading-8 uppercase;
 }
+
+@keyframes openMenu {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes closeMenu {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(140%);
+  }
+}
+
+.menu-open {
+  animation-name: openMenu;
+  animation-duration: 1s;
+}
+
+.menu-close {
+  animation-name: closeMenu;
+  animation-duration: 1s;
+}

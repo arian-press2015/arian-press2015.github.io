@@ -1286,6 +1286,10 @@ video {
   opacity: 15%;
 }
 
+.opacity-\[10\%\] {
+  opacity: 10%;
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1521,6 +1525,36 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+}
+
+@keyframes openMenu {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes closeMenu {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(140%);
+  }
+}
+
+.menu-open {
+  animation-name: openMenu;
+  animation-duration: 1s;
+}
+
+.menu-close {
+  animation-name: closeMenu;
+  animation-duration: 1s;
 }
 
 @media (min-width: 768px) {

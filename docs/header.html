@@ -22,19 +22,28 @@
             const linksm = document.getElementById("links-sm");
 
             if (close.classList.contains("hidden")) {
+              //   link.classList.remove("menu-close");
               close.classList.remove("hidden");
               menu.classList.add("hidden");
               link.classList.remove("hidden");
               linksm.classList.remove("hidden");
+              //   link.classList.add("menu-open");
             } else {
+              //   link.classList.add("menu-close");
               close.classList.add("hidden");
               menu.classList.remove("hidden");
               link.classList.add("hidden");
               linksm.classList.add("hidden");
+              //   setTimeout(() => {
+              //     link.classList.add("hidden");
+              //     linksm.classList.add("hidden");
+              //   }, 1000);
+              //   link.classList.remove("menu-open");
             }
           }
         </script>
         <div class="hidden lg:block">
+          <!-- <div id="links" class="hidden menu-close"> -->
           <div id="links" class="hidden">
             <div class="flex flex-row gap-10">
               <a class="font-optima text-xl" href="/index.html">Home</a>
