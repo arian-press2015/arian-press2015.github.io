@@ -678,32 +678,20 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-\[-30\%\] {
-  margin-top: -30%;
+.mt-\[-10\%\] {
+  margin-top: -10%;
 }
 
-.mt-\[-200px\] {
-  margin-top: -200px;
-}
-
-.mt-\[-20\%\] {
-  margin-top: -20%;
+.mt-\[-2\%\] {
+  margin-top: -2%;
 }
 
 .mt-\[-25\%\] {
   margin-top: -25%;
 }
 
-.mt-\[-10\%\] {
-  margin-top: -10%;
-}
-
-.mt-\[-5\%\] {
-  margin-top: -5%;
-}
-
-.mt-\[-2\%\] {
-  margin-top: -2%;
+.mt-\[-30\%\] {
+  margin-top: -30%;
 }
 
 .block {
@@ -1716,10 +1704,6 @@ video {
 
   .xl\:mt-\[-10\%\] {
     margin-top: -10%;
-  }
-
-  .xl\:mt-\[-5\%\] {
-    margin-top: -5%;
   }
 
   .xl\:block {
