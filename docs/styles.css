@@ -568,10 +568,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -644,10 +640,6 @@ video {
   top: 40%;
 }
 
-.top-\[50\%\] {
-  top: 50%;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -688,6 +680,30 @@ video {
 
 .mt-\[-30\%\] {
   margin-top: -30%;
+}
+
+.mt-\[-200px\] {
+  margin-top: -200px;
+}
+
+.mt-\[-20\%\] {
+  margin-top: -20%;
+}
+
+.mt-\[-25\%\] {
+  margin-top: -25%;
+}
+
+.mt-\[-10\%\] {
+  margin-top: -10%;
+}
+
+.mt-\[-5\%\] {
+  margin-top: -5%;
+}
+
+.mt-\[-2\%\] {
+  margin-top: -2%;
 }
 
 .block {
@@ -1282,24 +1298,12 @@ video {
   opacity: 0.9;
 }
 
-.opacity-\[15\%\] {
-  opacity: 15%;
-}
-
 .opacity-\[10\%\] {
   opacity: 10%;
 }
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 @font-face {
@@ -1708,6 +1712,14 @@ video {
 
   .xl\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .xl\:mt-\[-10\%\] {
+    margin-top: -10%;
+  }
+
+  .xl\:mt-\[-5\%\] {
+    margin-top: -5%;
   }
 
   .xl\:block {
